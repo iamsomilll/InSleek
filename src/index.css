@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+@font-face {
+  font-family: "Clash Display";
+  src: url('./fonts/ClashDisplay-Regular.otf');
+}
