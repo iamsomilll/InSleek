@@ -8,9 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "host" : "vite --host"
+    "host": "vite --host"
   },
   "dependencies": {
+    "lenis": "^1.1.19",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0"

@@ -23,16 +23,17 @@ function Cards() {
         },
     ]
   return (
-    <div className=' bg-zinc-900 h-fit w-screen flex flex-col items-center gap-6 py-10 md:flex-wrap md:flex-row justify-center'>
-        {cardsData.map((card)=>(
-            <Card
-            key={card.serial}
-            serial={card.serial}
-            imgSrc={card.imgSrc}
-            heading={card.heading}
-            paragraph={card.paragraph}
-            />
-        ))}
+    <div className=' bg-zinc-900 h-fit w-screen flex flex-col items-center gap-6 py-10 md:flex-wrap md:flex-row justify-center md:h-screen font-Clash'>
+        <h1 className='text-white  w-[350px] text-2xl '>Our Features</h1>
+            {cardsData.map((card)=>(
+                <Card
+                key={card.serial}
+                serial={card.serial}
+                imgSrc={card.imgSrc}
+                heading={card.heading}
+                paragraph={card.paragraph}
+                />
+            ))}
     </div>
   )
 }
